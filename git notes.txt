@@ -1,0 +1,42 @@
+pwd - present working directory
+cd - change directory
+commit - snapshot like version1, version2, etc
+stage - send the working files into next commit
+if we dont stage a file then it wont get into commit
+
+commands:-
+
+git status                           -  to check what is status of git
+git init                             -  creates new git repo
+git add --a // git add .             = adds all files into staging area
+git commit -m "Initial Commit"       - to commit 
+git log                              = used to know what commits we have made
+git log -p                           = shows what things were removed
+
+git log -p -3                        = shows only 3 commits not all 
+git log --stat                       = shows short summary of commits
+git log --pretty = oneline           -> shows all changes/commits in one line
+git log --pretty = short	     -> 
+git log --since = 2.days             -> shows all commits made in last two days
+git log --since = 2.months           -> shows all commits made in last two months
+git log --pretty=format:"%h--%an"    -> %h is hash commit and %an is author name %ae is author email
+git commit -a -m "Direct Commit"     = send all tracked files into staging area leaving untracked files 
+git commit --amend                   = if we want to change/merge a msg of other author we use this command
+git rm filename                      = is used to remove/delete the file from a folder
+git mv old_filename new_filename     = used to rename the file 
+git rm --cached filename             = used to untrack the file which was tracked by git previously
+
+
+
+branch - is by default master
+master - main branch
+
+.gitignore - if we made any .gitignore file added any file to it then all those files will be ignored.
+
+*.log  - ignores all log files
+
+git diff - compares working directory with staging area
+
+git diff --staged - compares previous commit with current staging area
+
+
