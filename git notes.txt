@@ -26,7 +26,9 @@ git rm filename                      = is used to remove/delete the file from a 
 git mv old_filename new_filename     = used to rename the file 
 git rm --cached filename             = used to untrack the file which was tracked by git previously
 
-
+git restore --staged filename        = used to restore the file back to unstaged area
+git checkout -- filename             = used to match the file to previous commit/
+git checkout -f                      = irrespective of all changes if we want to go to previous commit we use this command
 
 branch - is by default master
 master - main branch
