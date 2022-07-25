@@ -30,6 +30,9 @@ git restore --staged filename        = used to restore the file back to unstaged
 git checkout -- filename             = used to match the file to previous commit/
 git checkout -f                      = irrespective of all changes if we want to go to previous commit we use this command
 
+git remote -v                        = shows remote repo to pull and push
+
+
 branch - is by default master
 master - main branch
 
